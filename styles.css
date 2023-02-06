@@ -133,10 +133,33 @@ li a .current {
      background-color: #bb2205;
 }
 
-
-
-
-
+/* ABOUT SECTION */
+/* ABOUT SECTION */
+/* ABOUT SECTION */
+.about-section {
+     background-color: #eee;
+}
+.about {
+     width: 60%;
+     margin: 0 auto;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.about img {
+     width: 10rem;
+     height: 10rem;
+     border-radius: 50%;
+     margin-bottom: 1rem;
+}
+.s-head {
+     font-size: 2.5rem;
+     font-weight: 700;
+     color: #333;
+     text-transform: capitalize;
+     margin-bottom: 1rem;
+}
 
 
 
@@ -150,6 +173,10 @@ li a .current {
 @media screen and (max-width: 600px) {
      /* Intro Section */
      .intro {
+          width: 100%;
+     }
+     /* About Section */
+     .about {
           width: 100%;
      }
 }
