@@ -76,7 +76,7 @@ li a:visited {
      transition: all 0.3s;
 }
 li a:hover,
-li a .current {
+ul li .current {
      color: #bb2205;
      font-size: 1.7rem;
 }
@@ -275,6 +275,28 @@ li a .current {
      padding: 0.8rem 1rem;
 }
 
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+footer {
+     background-color: #2d6187;
+     padding: 1rem 0;
+}
+.footer {
+     width: 80%;
+     margin: 0 auto;
+     padding: 1rem 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.footer-link ul li a {
+     color: white;
+}
+.footer p {
+     margin: 0;
+ }
+
 /* Media Queries */
 /* Media Queries */
 /* Media Queries */
@@ -308,5 +330,9 @@ li a .current {
      }
      .order-item p {
           font-size: 1.2rem;
+     }
+     /* Footer Section */
+     .footer {
+          flex-direction: column;
      }
 }
