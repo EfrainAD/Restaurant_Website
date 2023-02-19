@@ -202,6 +202,33 @@ li a .current {
      font-size: 1.3rem;
 }
 
+/*  TESTIMONIAL SECTION */
+/*  TESTIMONIAL SECTION */
+/*  TESTIMONIAL SECTION */
+.testimonial-section {
+     background: url('./images/bg-3.jpg') no-repeat center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+.testimonial {
+     width: 60%;
+     text-align: center;
+     padding: 5rem .5rem;
+     background-color: rgba(255, 255, 255, .5);
+     border-radius: 5px;
+}
+.testimonial img {
+     width: 20%;
+     border-radius: 50%;
+}
+.q-head {
+     font-size: 1.6rem;
+     font-weight: 500;
+     color: #333;
+     text-transform: capitalize;
+     margin-bottom: .5rem;
+}
+
 /* Media Queries */
 /* Media Queries */
 /* Media Queries */
@@ -217,5 +244,9 @@ li a .current {
      /* Menu Section */
      .menu-items {
           flex-direction: column;
+     }
+     /* Testimonial Section */
+     .testimonial {
+          width: 70%; 
      }
 }
